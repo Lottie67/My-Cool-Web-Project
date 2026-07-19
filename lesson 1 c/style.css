@@ -1,0 +1,50 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+  font-family: "Crafty Girls", cursive;
+  font-style: normal;
+
+
+    font-size: 35px;
+}
+.container{
+    display: grid;
+    place-items: center;
+    height:100vh;
+    background-color: aqua;
+}
+.photo{
+    width:250px;
+    height:250px;
+}
+.text{
+    font-size:1.5rem;
+}
+#size{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 35px;
+}
+@media (min-width:768px){
+    .container{
+        background-color: rgba(224, 107, 240, 0.911);
+    }
+}
+@media (min-width:992px){
+    .container{
+        background-color: rgba(115, 113, 250, 0.911);
+    }
+}
+@media (min-width:1200px){
+    .container{
+        background-color: rgba(255, 130, 207, 0.911);
+    }
+}
